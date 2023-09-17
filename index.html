@@ -6,9 +6,20 @@
     <link rel="stylesheet" href="style.css">
     <title>Modal Box-Pop Up</title>
 </head>
-<body>
+<body>  
 
-    
+    <div class="container">
+        <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+        <div class="popup" id="popup">
+            <img src="404-tick.png" alt="">
+            <h2>Thank You</h2>
+            <p>Your details has been successfully Submitted. Thanks!</p>
+             <button type="button"  onclick="closePopup()" >OK</button>
+        </div>
+
+    </div>
+
+
     <script src="script.js"></script>
 </body>
 </html>
